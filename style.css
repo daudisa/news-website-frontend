@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+body {
+    margin: 2% 12%;
+    font-family: "Inter", sans-serif;
+}
+
+.subheading {
+    position: absolute;
+    top: 53%;
+    left: 38%;
+    
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 110%;
+
+}
+
+h3 {
+    cursor: pointer;
+}
+
+.section h1 {
+    font-size: 30px;
+}
+
+.subheading p {
+  font-size: 18px;   
+}
+
+
+.button {
+    position: absolute;
+    top: 67%;
+    left: 38%;
+    background-color: rgb(236, 90, 90);
+    border: none;
+    color: whitesmoke;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.menu {
+    float: right;
+}
+
+  
+  .menu a {
+    
+    color: rgb(104, 97, 97);
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+
+
+.section {
+    background-color: black;
+    width: 19%;
+    color: white;
+    position: absolute;
+    top: 10.5%;
+    left: 67%;
+    padding: 1% 1.3% 1.3% 1.3%;
+}
+
+
+.line {
+    border-top: .5px solid whitesmoke;
+    width: 100%;
+}
+
+
+.block1 {
+    position: absolute;
+    top: 55%;
+    left: 6%;
+}
+
+.block2 {
+    position: absolute;
+    top: 56%;
+    left: 18%;
+}
+
+/*
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2%;
+    
+}
+*/
+
+.container img {
+    padding-top: 2%;
+}
+
+.grid1 {
+    position: absolute;
+    top: 74.5%;
+    left: 19.5%;
+    
+}
+
+
+.grid2 {
+    position: absolute;
+    top: 74.5%;
+    left: 45.5%;
+}
+
+.img2 {
+    padding-left: 26%;
+    
+}
+
+.grid3 {
+    position: absolute;
+    top: 74.5%;
+    left: 74.5%;
+}
+
+.img3 {
+    padding-left: 29.7%;
+}
+
+
+h3:hover {
+    color:rgb(220, 74, 74)
+}
+
+.button:hover {
+    color: black;
+}
+
+
+a:hover {
+    color:rgb(220, 74, 74);
+}
+
